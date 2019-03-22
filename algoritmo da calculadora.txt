@@ -1,0 +1,16 @@
+Aula TI2 Casemiro 22/03/2019
+**********************************
+Projeto github - Calculadora
+**********************************
+
+Algoritmo da Calculadora
+
+Problema?
+. fazer contas
+. carregar nos botoes e fazer contas
+
+Temos?
+. botoes com operandos 0 1 2 3 4 5 6 7 8 9
+. botoes com operadores + - x / c 
+
+Como fazer?
