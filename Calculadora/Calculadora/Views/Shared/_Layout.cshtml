@@ -20,7 +20,7 @@
                 </button>
                 @* informação que aparece dentro da barra
                     helperes, gera uma ancora*@
-                @Html.ActionLink("Nome da Aplicação - Inicio", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink("Nome da Aplicação - Início", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             @* o que controla a barra de navegação - ler sobre o bootstrap *@
             <div class="navbar-collapse collapse">
@@ -31,17 +31,17 @@
     </div>
 
     <div class="container body-content">
-        <!-- renderbody -local colocar o codigo da nossa view-->>
-        <!-- inicio da minha view-->>
+        <!-- renderbody -local colocar o codigo da nossa view-->
+        <!-- inicio da minha view-->
         @RenderBody()
-        <!-- fim da minha view-->>
+        <!-- fim da minha view-->
         <hr />
         <footer>
-            <!-- instrucoes c# para escrever o ano da data -->>
+            <!-- instrucoes c# para escrever o ano da data -->
             <p>&copy; @DateTime.Now.Year - My ASP.NET Application - A minha maravilhosa calculadora</p>
         </footer>
     </div>
-    <!-- o javascript deve ficar sempre no final do body-->>
+    <!-- o javascript deve ficar sempre no final do body-->
     <script src="~/Scripts/jquery-1.10.2.min.js"></script>
     <script src="~/Scripts/bootstrap.min.js"></script>
 </body>
