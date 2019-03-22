@@ -36,7 +36,7 @@ namespace Calculadora.Controllers
 
                     break;
             }
-            ViewBag.Resposta = visor();
+            ViewBag.Resposta = visor;
             return View();
         }
 
